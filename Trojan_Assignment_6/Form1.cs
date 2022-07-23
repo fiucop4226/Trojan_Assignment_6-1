@@ -140,5 +140,13 @@ namespace Trojan_Assignment_6
         {
 
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GradientPanel gradientPanel = new GradientPanel();
+            gradientPanel.Show();
+            AboutDialog aboutDialog = new AboutDialog();
+            aboutDialog.Show();
+        }
     }
 }
