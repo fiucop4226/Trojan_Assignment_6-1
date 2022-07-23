@@ -135,5 +135,10 @@ namespace Trojan_Assignment_6
         {
             pen.Width = (float)paint_Size.Value;
         }
+
+        private void brushToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
